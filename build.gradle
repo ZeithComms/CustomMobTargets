@@ -122,7 +122,7 @@ artifacts {
 }
 
 curseforge {
-	apiKey = System.env.CURSEFORGE_API_KEY != null ? System.env.CURSEFORGE_API_KEY : '0'
+	apiKey = System.env.CURSEFORGE_API_KEY_COMM != null ? System.env.CURSEFORGE_API_KEY_COMM : '0'
 	project {
 		id = "${config.cf_project}"
 		changelogType = 'html'
@@ -132,9 +132,6 @@ curseforge {
 		mainArtifact(jar) {
 		  displayName = "[${config.minecraft_version}] ${config.mod_name} - ${config.mod_version}"
 		}
-		relations {
-            requiredLibrary 'Hammer-Lib'
-        }
 	}
 }
 
