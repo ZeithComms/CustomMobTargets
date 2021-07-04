@@ -74,7 +74,7 @@ public class CustomMobTargetsCoremod
 			{
 				if(method.name.equals("<init>"))
 				{
-					LOG.info("Pathching " + name + "'s constructor.");
+					LOG.info("Patching " + name + "'s constructor.");
 
 					AbstractInsnNode[] insnArr = method.instructions.toArray();
 
