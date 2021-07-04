@@ -1,0 +1,10 @@
+[
+	{
+	  "modid": "cmt",
+	  "name": "Custom Mob Targets",
+	  "description": "A simple mod that enables modpack maker to let enemies attack other living entities",
+	  "version": "${version}",
+	  "mcversion": "${mcversion}",
+	  "authorList": ["Zeitheron"]
+	}
+]
